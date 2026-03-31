@@ -1,0 +1,26 @@
+.RegionTab {
+  padding: 1.5rem;
+  ul {
+    display: flex;
+    gap: 0.625rem;
+    li {
+      list-style: none;
+      button {
+        appearance: none;
+        border: none;
+        background: none;
+        padding: 0 1rem;
+        font-size: 1rem;
+        color: #060648;
+        line-height: 2;
+        border: 1px solid #0f0f91;
+        border-radius: 10rem;
+        cursor: pointer;
+        &.active {
+          color: #fff;
+          background-color: #0f0f91
+        }
+      }
+    }
+  }
+}
